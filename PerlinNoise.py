@@ -12,10 +12,6 @@ def GeneratePerlinNoise(height,width,resolution):
     
     x = np.linspace(0,resolution,height)
     y = np.linspace(0,resolution,width)
-    
-    print(np.shape(finalGrid))
-    print(np.shape(x))
-    print(np.shape(y))
 
     for i in range(len(finalGrid)):
         for j in range(len(finalGrid[i])):
